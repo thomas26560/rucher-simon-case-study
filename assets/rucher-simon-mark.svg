@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Rucher Simon bee mark</title>
+  <desc id="desc">A refined bee emblem in a honey-coloured rounded square with the green and brown identity of Rucher Simon.</desc>
+  <defs>
+    <linearGradient id="tile" x1="48" y1="38" x2="278" y2="286" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9D36F"/>
+      <stop offset=".52" stop-color="#D99A2B"/>
+      <stop offset="1" stop-color="#A85E20"/>
+    </linearGradient>
+    <linearGradient id="inner" x1="76" y1="62" x2="244" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9EA"/>
+      <stop offset="1" stop-color="#F0E0BB"/>
+    </linearGradient>
+    <pattern id="comb" width="34" height="29.4" patternUnits="userSpaceOnUse">
+      <path d="M8.5 0h17l8.5 14.7-8.5 14.7h-17L0 14.7 8.5 0Z" fill="none" stroke="#FFF7DB" stroke-width="2"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="13" stdDeviation="12" flood-color="#3E2B1D" flood-opacity=".24"/>
+    </filter>
+    <clipPath id="abdomen">
+      <path d="M160 143c31 0 48 28 43 61-5 34-26 64-43 78-17-14-38-44-43-78-5-33 12-61 43-61Z"/>
+    </clipPath>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect x="30" y="30" width="260" height="260" rx="72" fill="url(#tile)"/>
+    <rect x="48" y="48" width="224" height="224" rx="59" fill="url(#inner)" stroke="#3F6548" stroke-width="10"/>
+    <rect x="59" y="59" width="202" height="202" rx="50" fill="url(#comb)" opacity=".34"/>
+  </g>
+  <g>
+    <path d="M139 124C107 87 74 103 79 136c4 29 33 39 67 18" fill="#FFFDF7" fill-opacity=".92" stroke="#6C4B2C" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M181 124c32-37 65-21 60 12-4 29-33 39-67 18" fill="#FFFDF7" fill-opacity=".92" stroke="#6C4B2C" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M142 107c-14-29-33-33-43-25" fill="none" stroke="#473225" stroke-width="6" stroke-linecap="round"/>
+    <path d="M178 107c14-29 33-33 43-25" fill="none" stroke="#473225" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="97" cy="81" r="5" fill="#473225"/>
+    <circle cx="223" cy="81" r="5" fill="#473225"/>
+    <circle cx="160" cy="124" r="35" fill="#4B3426"/>
+    <path d="M160 143c31 0 48 28 43 61-5 34-26 64-43 78-17-14-38-44-43-78-5-33 12-61 43-61Z" fill="#E3AA32" stroke="#473225" stroke-width="7" stroke-linejoin="round"/>
+    <g clip-path="url(#abdomen)" fill="#4B3426">
+      <rect x="112" y="166" width="96" height="15" rx="7"/>
+      <rect x="112" y="202" width="96" height="16" rx="8"/>
+      <rect x="119" y="238" width="82" height="16" rx="8"/>
+    </g>
+    <circle cx="149" cy="119" r="5" fill="#FFF8E7"/>
+    <circle cx="171" cy="119" r="5" fill="#FFF8E7"/>
+  </g>
+</svg>
